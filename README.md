@@ -4,7 +4,7 @@
 # Descrição
 Projeto para categorizar negociação.
 Foi criada uma aplicação do tipo Console para ler uma arquivo de entrada chamado `input.txt` e gerar um arquivo de saída chamado `output.txt`.
-O formato do arquivo `input.txt` deve seguir o seguindo padrão:
+O formato do arquivo `input.txt` deve seguir o seguinte padrão:
 ```
 12/11/2020
 4
@@ -15,7 +15,7 @@ O formato do arquivo `input.txt` deve seguir o seguindo padrão:
 ```
 Onde: 
 - na primeira linha há a data de referência do arquivo, no formato `MM/DD/YYYY`;
-- na segunda linha há a quantidade (N) de negociações no arquivo;
+- na segunda linha há a quantidade de negociações (N) no arquivo;
 - nas N linhas seguintes há as negociações, no formato: `valor` `setor do cliente` `data do próximo vencimento`
 > Obs: As datas sempre no formato `MM/DD/YYYY` e os valores sem casas decimais, ou seja, $1.000.000,00 = 1000000
 
